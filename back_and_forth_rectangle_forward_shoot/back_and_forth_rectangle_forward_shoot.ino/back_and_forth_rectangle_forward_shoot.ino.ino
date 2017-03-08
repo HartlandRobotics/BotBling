@@ -117,7 +117,6 @@ void loop() {
       x2 = 1;
     }
   }
-  
 
   if(tail4 >= 2 * SHORT + LONG){
     strip.setPixelColor(tail4, 0);
