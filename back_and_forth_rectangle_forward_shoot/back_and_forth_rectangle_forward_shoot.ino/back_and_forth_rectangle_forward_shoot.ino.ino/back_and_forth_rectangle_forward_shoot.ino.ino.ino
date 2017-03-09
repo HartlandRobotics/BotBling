@@ -25,7 +25,7 @@ struct_color color = {blue, yellow, yellow, yellow};
 #define LENGTHs 4
 #define LENGTHl 6
 #define RANDOM 2
-#define FRONT 1
+#define FRONT 0
 
 #define DATAPIN    11
 #define CLOCKPIN   13
@@ -117,6 +117,7 @@ void loop() {
       x2 = 1;
     }
   }
+  
 
   if(tail4 >= 2 * SHORT + LONG){
     strip.setPixelColor(tail4, 0);
